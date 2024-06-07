@@ -1,0 +1,287 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: border-box;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    z-index: 2;
+}
+
+body {
+    background-color: #ecf4f6;
+}
+
+li {
+    list-style-type: none;
+}
+
+.nav_container {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+
+
+}
+
+.nav_items {
+    position: relative;
+    padding: 1vw 1.5vw 0px 1.5vw;
+    top: 0px;
+
+}
+
+
+#searcher {
+    text-overflow: ellipsis;
+    width: 39vw;
+    height: 35px;
+    outline: none;
+    background: aliceblue;
+    border: 0;
+    border-radius: 0 5px 5px 0;
+    padding-left: 10px;
+    margin-left: 10px;
+
+}
+
+#logo {
+    position: relative;
+    bottom: 4px;
+}
+
+@media screen and (max-width:927px) {
+    .menu_list {
+        overflow-x: scroll;
+        scrollbar-width: thin;
+        overflow-y: hidden;
+    }
+
+    #sell_icon {
+        display: none;
+    }
+
+    .nav_container {
+        margin-bottom: 10px;
+    }
+
+}
+
+@media screen and (max-width:780px) {
+    #searcher {
+        width: 94vw;
+        margin: auto;
+        padding-left: 32px;
+    }
+
+    #logo {
+        right: 40px;
+    }
+
+    .nav_items {
+        padding: 2vw 1.5vw 0 1vw;
+    }
+}
+
+
+.diff_items_lists {
+    height: 150px;
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 10px;
+
+}
+
+.box {
+    background: white;
+    height: 118px;
+    width: 90px;
+    padding: 16px;
+    text-align: center;
+    cursor: pointer;
+
+}
+
+.items {
+    height: 64px;
+    width: 64px;
+}
+
+.banner {
+    display: flex;
+    justify-content: center;
+    margin-top: 16px;
+
+}
+
+.banner_img_size {
+    width: 85.9vw;
+}
+
+.similar_container1 {
+
+    width: 86vw;
+    /* border: 2px solid; */
+    scrollbar-width: thin;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    margin: auto;
+    background-color: white;
+    margin-top: 10px;
+
+}
+
+.container1items {
+    display: flex
+}
+
+.container_boxes {
+    margin: 10px;
+    cursor: pointer;
+    border: 1px solid grey;
+    border-radius: 5px;
+    text-align: center;
+
+}
+
+#conainer_img_size {
+    height: 110px;
+    width: 128px;
+
+}
+
+.container_tag {
+    padding-left: 10px;
+    font-size: 1rem;
+    padding-top: 10px;
+    position: sticky;
+    left: 0;
+}
+
+.product_name {
+    font-size: 1rem;
+    font-weight: lighter;
+}
+
+.pricing_strt_rate {
+    font-size: 1rem;
+}
+
+.stories {
+    margin: 1.5vw 0px 1px 0px;
+    font-size: 1.3rem;
+
+}
+
+a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+p {
+    font-size: .8rem;
+    font-weight: lighter;
+    color: #3f4954;
+}
+
+.hamburger:hover {
+    border: 1px solid grey;
+}
+
+.login_panel {
+    color: black;
+    font-weight: bold;
+    padding: 10px;
+    font-size: 16px;
+}
+
+.login_panel:hover {
+    border: 1px solid grey;
+    border-radius: 11px;
+    background: aliceblue;
+}
+
+.footbox {
+    padding: 5vw;
+}
+
+.foot {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    margin-top: 3vw;
+    color: wheat;
+    background-color: #1f1c1c;
+}
+
+.extra_links {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 21px;
+    padding-bottom: 15px;
+    background-color: #1f1c1c;
+    flex-wrap: wrap;
+
+}
+
+.foot_tags {
+    color: whitesmoke;
+    padding-bottom: 10px;
+}
+
+.foot_links {
+    margin-bottom: 5px;
+}
+
+#login_icon {
+    height: 17px;
+    /* margin: -3px; */
+    position: relative;
+    width: 20px;
+    top: 3px;
+    padding-left: 3px;
+}
+
+#arrow_icon {
+    height: 25px;
+    position: absolute;
+    width: 27px;
+    border-radius: 50%;
+    top: 8px;
+    background: #d3edff;
+    padding-left: 0px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+#search_icon {
+    position: absolute;
+    padding: 7px;
+    height: 21px;
+    background: red;
+    width: 17px;
+    left: 2px;
+    background: aliceblue;
+    border-radius: 5px 0 0 5px;
+    cursor: pointer;
+
+}
+
+#payment_imgs {
+    width: 251px;
+}
+
+.menu_list {
+    background: white;
+    width: 86vw;
+    margin: auto;
+}
+
+.extra_links_items {
+    padding: 16px 16px 25px 16px;
+    color: whitesmoke;
+}
